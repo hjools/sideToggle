@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>sideToggle</title>
+  <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700italic,700,400italic|PT+Serif:400,700,400italic,700italic|Vollkorn|Rokkitt:400,700' rel='stylesheet' type='text/css'>
+
+  
+  <link rel='stylesheet prefetch' href='http://cadice.b1.jcink.com/uploads/cadice/Style_My_Tooltips/style_my_tooltips.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <nav>
+  <a href="#" id="userPLink">
+    <span class="fa fa-user"></span>
+    username 
+  </a>
+  <div id="sideMenu">
+    <span class="fa fa-navicon" id="sideMenuClosed"></span>
+  </div>
+</nav>
+
+<div id="sideMenuContainer">
+  <h2>heading</h2>
+  <a href="#" title="new user guide"><span class="fa fa-bolt"></span></a>
+  <a href="#" title="rules"><span class="fa fa-exclamation-circle"></span></a>
+  <a href="#" title="setting"><span class="fa fa-map"></span></a>
+  <a href="#" title="usergroups"><span class="fa fa-info-circle"></span></a>
+  <a href="#" title="directory"><span class="fa fa-users"></span></a>
+  <a href="#" title="claims"><span class="fa fa-camera"></span></a>
+  <a href="#" title="summaries"><span class="fa fa-commenting"></span></a>
+  <a href="#" title="requests"><span class="fa fa-heart"></span></a>
+  <a href="#" title="unanswered"><span class="fa fa-flag"></span></a>
+  <a href="#" title="faq / suggestions"><span class="fa fa-question-circle"></span></a>
+  <a href="#" title="chat"><span class="fa fa-glass"></span></a>
+</div>
+
+<div id="logo" class='colorchange'>
+  toggling
+  <span>things is oddly satisfying</span>
+</div>
+
+<pre><code id='sourceCode'><script type="text/javascript">
+$(document).ready(function(){
+  $('#sideMenu').sideToggle({
+    moving: '#sideMenuContainer',
+    direction: 'right'
+  });
+});
+  </script></code></pre>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js'></script>
+<script src='http://cadice.b1.jcink.com/uploads/cadice/slideToggleExtended_min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
