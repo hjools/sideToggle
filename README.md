@@ -1,6 +1,6 @@
 # sideToggle
 
-This is a small jQuery plugin that toggles elements sideways, rather than the up-and-down default of jQuery's toggle. There are three versions available for use; one of them uses an extra Javascript library called Velocity.js that offers a performance gain over jQuery's .animate(), but it likely won't be necessary for small use. 
+This is a small jQuery plugin that toggles elements sideways, rather than the up-and-down default of jQuery's toggle. There are three versions available for use; one of them uses an extra Javascript library called Velocity.js that offers a performance gain over jQuery's .animate(), but it likely won't be necessary for small use. You can view an example [HERE](http://hjools.github.io/sideToggle/).
 
 
 
